@@ -1,0 +1,25 @@
+# local pipeline build folders, archived on Zenodo rather than committed here
+# (the copies of data.json / *.csv actually served by the site live at the
+# repository root, not in these folders)
+data/
+web/
+*.tsv
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# os and editors
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# large or regenerable outputs
+*.docx
+*.xlsx
